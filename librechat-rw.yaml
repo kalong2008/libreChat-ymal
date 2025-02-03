@@ -87,10 +87,10 @@ endpoints:
           #"cohere/command-r-plus",
           #"cohere/command-r-plus-04-2024",
           #"cohere/command-r-plus-08-2024",
-          "---GOOGLE---",
-          "google/gemini-2.0-flash-thinking-exp:free",
-          "google/gemini-2.0-flash-exp:free",
-          "google/learnlm-1.5-pro-experimental:free",
+          #"---GOOGLE---",
+          #"google/gemini-2.0-flash-thinking-exp:free",
+          #"google/gemini-2.0-flash-exp:free",
+          #"google/learnlm-1.5-pro-experimental:free",
           #"google/gemini-exp-1114",
           #"google/gemini-flash-1.5",
           #"google/gemini-flash-1.5-8b",
@@ -236,8 +236,8 @@ endpoints:
           #"x-ai/grok-beta",
           #"x-ai/grok-vision-beta",
           #"xwin-lm/xwin-lm-70b",
-          "---DeepSeek---",
-          "deepseek/deepseek-r1:free"
+          #"---DeepSeek---",
+          #"deepseek/deepseek-r1:free"
           ]
         fetch: false
       dropParams: ["stop"]
