@@ -240,10 +240,10 @@ endpoints:
           "deepseek/deepseek-r1:free"
           ]
         fetch: false
-      dropParams: ["stop"]
+      #dropParams: ["stop"]
       titleConvo: true
-      titleModel: "chatgpt-4o-latest"
-      summarize: false
-      summaryModel: "chatgpt-4o-latest"
+      titleModel: "openai/chatgpt-4o-latest"
+      summarize: true
+      summaryModel: "openai/chatgpt-4o-latest"
       forcePrompt: false
       modelDisplayLabel: "OpenRouter"
