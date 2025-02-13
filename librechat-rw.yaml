@@ -162,6 +162,8 @@ endpoints:
           #"nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
           #"nousresearch/nous-hermes-llama2-13b",
           "---OPENAI---",
+          "openai/o3-mini-high",
+          "openai/o3-mini",
           "openai/o1-mini",
           "openai/chatgpt-4o-latest",
           #"openai/gpt-3.5-turbo",
