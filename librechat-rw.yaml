@@ -79,6 +79,8 @@ endpoints:
           #"anthropic/claude-3-sonnet",
           "anthropic/claude-3.5-sonnet",
           #"anthropic/claude-3.5-sonnet-20240620",
+          "anthropic/claude-3.7-sonnet",
+          "anthropic/claude-3.7-sonnet:thinking",
           #"---COHERE---",
           #"cohere/command",
           #"cohere/command-r",
