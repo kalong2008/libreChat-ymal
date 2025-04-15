@@ -258,11 +258,11 @@ endpoints:
       #summaryModel: "openai/chatgpt-4o-latest"
       forcePrompt: false
       modelDisplayLabel: "OpenRouter"
-    - name: "xai"
+    - name: "Grok"
       apiKey: "${XAI_API_KEY}"
       baseURL: "https://api.x.ai/v1"
       models:
-        default: ["grok-2-1212", "grok-beta"]
+        default: ["grok-3-beta", "grok-3-mini-beta"]
         fetch: false
       titleConvo: true
       titleMethod: "completion"
