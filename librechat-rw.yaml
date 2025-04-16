@@ -171,7 +171,7 @@ endpoints:
           "openai/gpt-4.1",
           "openai/gpt-4.1-mini",
           "openai/gpt-4.1-nano",
-          "openai/o3",
+          #"openai/o3",
           "openai/o3-mini-high",
           "openai/o3-mini",
           "openai/gpt-4o-search-preview",
