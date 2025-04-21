@@ -1,4 +1,4 @@
-version: 1.2.0
+version: 1.2.4
 
 cache: true
 
@@ -252,8 +252,8 @@ endpoints:
         fetch: false
       titleConvo: true
       titleMethod: "completion"
-      titleModel: "grok-3-beta"
+      titleModel: "grok-3"
       summarize: false
-      summaryModel: "grok-3-beta"
+      summaryModel: "grok-3"
       forcePrompt: false
       modelDisplayLabel: "Grok"
