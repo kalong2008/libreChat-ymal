@@ -248,7 +248,7 @@ endpoints:
       apiKey: "${XAI_API_KEY}"
       baseURL: "https://api.x.ai/v1"
       models:
-        default: ["grok-3-beta", "grok-3-mini-beta"]
+        default: ["grok-3", "grok-3-mini"]
         fetch: false
       titleConvo: true
       titleMethod: "completion"
