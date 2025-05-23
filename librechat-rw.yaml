@@ -1,4 +1,4 @@
-version: 1.2.4
+version: 1.2.5
 
 cache: true
 
@@ -72,15 +72,16 @@ endpoints:
           #"anthropic/claude-2",
           #"anthropic/claude-2.0",
           #"anthropic/claude-2.1",
-          "anthropic/claude-3-5-haiku",
+          #"anthropic/claude-3-5-haiku",
           #"anthropic/claude-3-5-haiku-20241022",
           #"anthropic/claude-3-haiku",
           #"anthropic/claude-3-opus",
           #"anthropic/claude-3-sonnet",
-          "anthropic/claude-3.5-sonnet",
+          #"anthropic/claude-3.5-sonnet",
           #"anthropic/claude-3.5-sonnet-20240620",
-          "anthropic/claude-3.7-sonnet",
+          #"anthropic/claude-3.7-sonnet",
           "anthropic/claude-3.7-sonnet:thinking",
+          "anthropic/claude-sonnet-4",
           #"---COHERE---",
           #"cohere/command",
           #"cohere/command-r",
@@ -91,7 +92,8 @@ endpoints:
           #"cohere/command-r-plus-08-2024",
           "---GOOGLE---",
           "google/gemini-2.5-pro-preview",
-          "google/gemini-2.5-flash-preview:thinking",
+          "google/gemini-2.5-flash-preview-05-20",
+          "google/gemini-2.5-flash-preview-05-20:thinking",
           #"gemini-2.0-flash-001",
           #"gemini-2.0-flash-lite-preview-02-05:free",
           #"gemini-2.0-pro-exp-02-05:free",
@@ -130,6 +132,7 @@ endpoints:
           #"meta-llama/llama-guard-2-8b",
           "---MICROSOFT---",
           "microsoft/phi-4",
+          "microsoft/phi-4-reasoning-plus",
           #"microsoft/phi-3-medium-128k-instruct",
           #"microsoft/phi-3-mini-128k-instruct",
           #"microsoft/phi-3.5-mini-128k-instruct",
@@ -236,7 +239,10 @@ endpoints:
           #"x-ai/grok-vision-beta",
           #"xwin-lm/xwin-lm-70b",
           #"---DeepSeek---",
-          #"deepseek/deepseek-r1:free"
+          #"deepseek/deepseek-r1:free",
+          "---Grok---",
+          "x-ai/grok-3-mini-beta",
+          "x-ai/grok-3-beta"
           ]
         fetch: false
       dropParams: ["stop"]
