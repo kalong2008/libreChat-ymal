@@ -2,9 +2,6 @@ version: 1.2.8
 
 cache: true
 
-memory:
-  disabled: true
-
 endpoints:
   custom:
     # OpenRouter.ai
