@@ -2,12 +2,10 @@ version: 1.2.8
 
 cache: true
 
-registration:
-  socialLogins: ["discord", "facebook", "github", "google", "openid"]
+memory:
+  disabled: true
 
 endpoints:
-  agents:
-      disableBuilder: false
   custom:
     # OpenRouter.ai
     # Model list: https://openrouter.ai/models
@@ -255,16 +253,3 @@ endpoints:
       #summaryModel: "openai/chatgpt-4o-latest"
       forcePrompt: false
       modelDisplayLabel: "OpenRouter"
-    - name: "Grok"
-      apiKey: "${XAI_API_KEY}"
-      baseURL: "https://api.x.ai/v1"
-      models:
-        default: ["grok-3", "grok-3-mini"]
-        fetch: false
-      titleConvo: true
-      titleMethod: "completion"
-      titleModel: "grok-3"
-      summarize: false
-      summaryModel: "grok-3"
-      forcePrompt: false
-      modelDisplayLabel: "Grok"
