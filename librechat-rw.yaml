@@ -237,7 +237,6 @@ endpoints:
           #"deepseek/deepseek-r1:free",
           "---Grok---",
           "x-ai/grok-3",
-          "x-ai/grok-3",
           "x-ai/grok-4"
           ]
         fetch: false
