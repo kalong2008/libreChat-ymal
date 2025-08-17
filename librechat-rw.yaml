@@ -55,6 +55,23 @@ endpoints:
       #summaryModel: "openai/chatgpt-4o-latest"
       forcePrompt: false
       modelDisplayLabel: "OpenRouter"
+  azureOpenAI:
+    # Endpoint-level configuration
+    titleModel: "gpt-4.1-nano"
+    plugins: true
+    assistants: true
+    groups:
+    # Group-level configuration
+    - group: "ai-imhs-westus3"
+      apiKey: "${IMAGE_GEN_OAI_API_KEY}"
+      instanceName: "ai-imhs-westus"
+      version: "2025-04-01-preview"
+      # Model-level configuration
+      models:
+        gpt-image-1:
+          deploymentName: gpt-image-1
+        gpt-3.5-turbo:
+          deploymentName: gpt-35-turbo
 
 ocr:
   mistralModel: "mistral-document-ai-2505"              # Should match your Azure deployment name
