@@ -71,8 +71,8 @@ endpoints:
         gpt-4.1:
           deploymentName: gpt-4.1
 
-ocr:
-  mistralModel: "mistral-document-ai-2505"              # Should match your Azure deployment name
-  apiKey: "${IMAGE_GEN_OAI_API_KEY}"                 # Reference to your Azure API key in .env
-  baseURL: "https://ai-imhs-westus3.models.ai.azure.com/v1"  # Your Azure endpoint
-  strategy: "azure_mistral_ocr"                          # Use Azure strategy
+#ocr:
+#  mistralModel: "mistral-document-ai-2505"              # Should match your Azure deployment name
+#  apiKey: "${IMAGE_GEN_OAI_API_KEY}"                 # Reference to your Azure API key in .env
+#  baseURL: "https://ai-imhs-westus3.models.ai.azure.com/v1"  # Your Azure endpoint
+#  strategy: "azure_mistral_ocr"                          # Use Azure strategy
