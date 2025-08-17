@@ -62,12 +62,14 @@ endpoints:
     # Group-level configuration
     - group: "ai-imhs-westus3"
       apiKey: "${IMAGE_GEN_OAI_API_KEY}"
-      instanceName: "ai-imhs-westus"
+      instanceName: "ai-imhs-westus3"
       version: "2025-04-01-preview"
       # Model-level configuration
       models:
         gpt-4.1-nano:
           deploymentName: gpt-4.1-nano
+        gpt-4.1:
+          deploymentName: gpt-4.1
 
 ocr:
   mistralModel: "mistral-document-ai-2505"              # Should match your Azure deployment name
