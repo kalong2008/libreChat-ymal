@@ -75,10 +75,10 @@ mcpServers:
   # Production-ready cloud service
   image-generate:
     type: streamable-http
-    url: http://image-generate-mcp.vercel.app/api/mcp
+    url: https://image-generate-mcp.vercel.app/api/mcp
     timeout: 30000
     serverInstructions: true
-    chatMenu: true
+    #chatMenu: true
     
 #ocr:
 #  mistralModel: "mistral-document-ai-2505"              # Should match your Azure deployment name
