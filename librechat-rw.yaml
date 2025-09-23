@@ -45,7 +45,9 @@ endpoints:
           "perplexity/r1-1776",
           "---Grok---",
           "x-ai/grok-3",
-          "x-ai/grok-4"
+          "x-ai/grok-4",
+          "x-ai/grok-4-fast:free",
+          "x-ai/grok-code-fast-1"
           ]
         fetch: false
       dropParams: ["stop"]
@@ -78,7 +80,7 @@ mcpServers:
     url: https://image-generate-mcp.vercel.app/api/mcp
     timeout: 30000
     serverInstructions: true
-    #chatMenu: true
+    chatMenu: true
     
 #ocr:
 #  mistralModel: "mistral-document-ai-2505"              # Should match your Azure deployment name
