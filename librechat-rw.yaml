@@ -78,7 +78,7 @@ mcpServers:
   image-generate:
     type: streamable-http
     url: https://image-generate-mcp.vercel.app/api/mcp
-    timeout: 30000
+    timeout: 300000
     serverInstructions: true
     chatMenu: true
     
