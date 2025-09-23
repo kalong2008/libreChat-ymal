@@ -75,7 +75,7 @@ endpoints:
 
 mcpServers:  
   # Production-ready cloud service
-  image-generate:
+  image-generate-or-edit:
     type: streamable-http
     url: https://image-generate-mcp.vercel.app/api/mcp
     timeout: 300000
