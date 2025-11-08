@@ -85,6 +85,12 @@ mcpServers:
     timeout: 300000
     serverInstructions: true
     chatMenu: true
+  convert-to-excel:
+    type: streamable-http
+    url: https://convert-excel.vercel.app/api/mcp
+    timeout: 300000
+    serverInstructions: true
+    chatMenu: true
     
 #ocr:
 #  mistralModel: "mistral-document-ai-2505"              # Should match your Azure deployment name
